@@ -115,9 +115,11 @@ embed{
 
 @media screen and (max-width: 375px){
     body{
-        width: 375px;
+        width: auto;
     }
     main{
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
     }
     .brightOrange{
