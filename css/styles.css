@@ -6,14 +6,15 @@
 }
 
 body{
-    width: 100%;
+    /*Poner el width en media query*/
+    width: 1440px;
     height: 100vh;
     background-color: hsl(0, 0%, 95%);
     font-size: 15px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
 }
 main{
     margin: auto;
@@ -34,9 +35,8 @@ section{
 
 .flex{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
-    flex-wrap: wrap;
     
 }
 
@@ -61,7 +61,7 @@ section{
 .buttom{
     
     margin: 60px 0 50px;
-    
+
 }
 
 .buttom.brightOrange a{
@@ -91,8 +91,11 @@ section{
     
 }
 .buttom a:active{
-    background-color: hsl(0, 0%, 85%);
-
+    background-color: rgba(255, 255, 255,0);
+    color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
 }
 
 p{
@@ -108,6 +111,22 @@ embed{
 .attribution { 
     font-size: 11px; 
     margin: 25px auto; 
+}
+
+@media screen and (max-width: 375px){
+    body{
+        width: 375px;
+    }
+    main{
+        flex-direction: column;
+    }
+    .brightOrange{
+        border-radius: 5px 5px 0px 0px;
+    }
+    .veryDarkCyan{
+        border-radius: 0px 0px 5px 5px;
+    }
+
 }
 
 .attribution a { color: hsl(228, 45%, 44%); }
