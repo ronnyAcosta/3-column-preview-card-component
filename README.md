@@ -34,8 +34,8 @@ Users should be able to:
 ![](./screenshot.jpg)
 
 #### Mobile
-![](./mobileScreenshot1.jpg)
-![](./mobileScreenshot2.jpg)
+![](./mobileScreenshot1.jpeg)
+![](./mobileScreenshot2.jpeg)
 
 
 ### Links
