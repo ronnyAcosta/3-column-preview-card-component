@@ -6,7 +6,6 @@
 }
 
 body{
-    /*Poner el width en media query*/
     width: auto;
     height: 100vh;
     background-color: hsl(0, 0%, 95%);
